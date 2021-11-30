@@ -1,6 +1,7 @@
 import React from 'react';
 import { CodeIcon } from "@heroicons/react/solid";
 import { projects } from "../../data";
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -14,8 +15,8 @@ const Projects = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
+            <Link to={project.link}
+              // href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -34,7 +35,7 @@ const Projects = () => {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

@@ -19,7 +19,7 @@ export const projects = [
         </p> 
         </>,
       image: "./watch shop.png",
-      link: "https://watch-shop-63fbf.web.app/",
+      link: "/projectDetails",
     },
     {
       title: "Just Fly",
@@ -41,7 +41,7 @@ export const projects = [
       </p> 
       </>,
       image: "./Just Fly .png",
-      link: "https://just-fly-9b8d3.web.app/",
+      link: "/jutfly",
     },
     {
       title: "Fitness Gym",
@@ -63,6 +63,6 @@ export const projects = [
       </p> 
       </>,
       image: "./fitness-gym.png",
-      link: "https://fitness-gym-1f35b.web.app/",
+      link: "/projectDetailsfitnessGym",
     },
   ];
