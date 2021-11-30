@@ -18,7 +18,7 @@ export const projects = [
           </ul>
         </p> 
         </>,
-      image: "https://ibb.co/6yZd2Ht",
+      image: "./watch shop.png",
       link: "https://watch-shop-63fbf.web.app/",
     },
     {
@@ -40,7 +40,7 @@ export const projects = [
         </ul>
       </p> 
       </>,
-      image: "https://ibb.co/XpdRztH",
+      image: "./Just Fly .png",
       link: "https://just-fly-9b8d3.web.app/",
     },
     {
@@ -62,7 +62,7 @@ export const projects = [
         </ul>
       </p> 
       </>,
-      image: "https://ibb.co/c1Q33jb",
+      image: "./fitness-gym.png",
       link: "https://fitness-gym-1f35b.web.app/",
     },
   ];
